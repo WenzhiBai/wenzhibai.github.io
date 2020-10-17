@@ -33,7 +33,7 @@
         <tr>
             <td style="vertical-align:top; text-align:left">
             The Merits Postgraduate Student <b>(Top 5%)</b><br />
-            The National Scholarship for Postgraduates <b>(Top 2%, 20000 RMB)</b>
+            The National Scholarship for Postgraduates <b>(Top 2%, 20,000 RMB)</b>
             </td>
             <td style="vertical-align:top; text-align:right">Dec. 2015</td>
         </tr>
@@ -46,7 +46,7 @@
         <tr>
             <td style="vertical-align:top; text-align:left">
             The Merits Student <b>(Top 5%)</b><br />
-            The National Scholarship <b>(Top 2%, 8000 RMB)</b>
+            The National Scholarship <b>(Top 2%, 8,000 RMB)</b>
             </td>
             <td style="vertical-align:top; text-align:right">Dec. 2013</td>
         </tr>
@@ -186,8 +186,9 @@
                 Algorithm Engineer/Pre-research Project Team Leader, <a href="https://www.ldrobot.com/en"> LDROBOT</a><br />
                 <b>HIGHLIGHTS: </b><br />
                 ● Developed and optimized the Lidar-based SLAM module<br />
-                ● Constructed the SLAM automation test system<br />
-                ● Preliminary study of contactless visual obstacle avoidance based on depth camera
+                ● Constructed the SLAM automatic test system<br />
+                ● Preliminary study of contactless visual obstacle avoidance based on depth camera<br />
+                ● Shipped more than 100,000 units by the time of my departure
                 </p>
             </td>
         </tr>
@@ -220,7 +221,7 @@
                 Oct. 2013 - Dec. 2015<br />
                 Software Development/Team Leader<br />
                 <b>HIGHLIGHTS: </b><br />
-                ● Funded by HUST Graduate Base Of innovation and Entrepreneurship and finished the project with "excellent" results<br />
+                ● Funded by HUST Graduate Base of Innovation and Entrepreneurship and finished the project with "Excellent" results<br />
                 ● Exhibited in <a href="https://en.cisma.com.cn"> CISMA</a> (China International Sewing Machinery & Accessories Show)
                 </p>
             </td>
@@ -255,7 +256,7 @@
                 Jun. 2012 - Oct. 2012<br />
                 Researcher<br />
                 <b>HIGHLIGHTS: </b><br />
-                ● Took charge of chassis design of navigation robot and adopted Mecanum Wheel<br />
+                ● Took charge of three-wheel omnidirectional chassis design of navigation robot and adopted Mecanum Wheel<br />
                 ● Widely reported by the media
                 </p>
             </td>
