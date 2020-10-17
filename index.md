@@ -145,7 +145,7 @@
             </td>
             <td width="70%" height="150" style="vertical-align:top; text-align:left">
                 <p>
-                <strong>AVP (Auto Valet Parking)</strong><br />
+                <strong>AVP (Autonomous Valet Parking)</strong><br />
                 Sept. 2019 - Apr. 2020<br />
                 Senior Algorithm Engineer, <a href="https://apollo.auto"> BAIDU APOLLO</a><br />
                 <b>HIGHLIGHTS: </b><br />
@@ -164,7 +164,7 @@
             </td>
             <td width="70%" height="150" style="vertical-align:top; text-align:left">
                 <p>
-                <strong>APA (Auto Parking Assist)</strong><br /> 
+                <strong>APA (Automatic Parking Assist)</strong><br /> 
                 Nov. 2018 - Sept. 2019<br />
                 Senior Algorithm Engineer, <a href="https://apollo.auto"> BAIDU APOLLO</a><br />
                 <b>HIGHLIGHTS: </b><br />
