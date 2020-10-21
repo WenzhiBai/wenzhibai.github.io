@@ -14,8 +14,8 @@
 
 ## Skills
 ----------
-<b>Programming:</b> C/C++ (very strong), Python (fair)  
-<b>Algorithm Library:</b> OpenCV, Eigen, Ceres Solver, OpenGL  
+<b>Programming Languages:</b> C/C++ (very strong), Python (fair)  
+<b>Algorithm Libraries:</b> OpenCV, Eigen, Ceres Solver, OpenGL  
 <b>Tools:</b> Linux/Ubuntu, ROS, Git, CMake  
 
 <br />
