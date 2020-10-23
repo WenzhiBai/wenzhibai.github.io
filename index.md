@@ -8,7 +8,7 @@
 
 <b>CV:</b> [CV](./assets/pdf/CV.pdf)  
 <b>Link:</b> [GitHub](https://github.com/wenzhibai)  
-<b>Email:</b> [tank.bai@qq.com](mailto:tank.bai@qq.com)  
+<b>Email:</b> [tank.wenzhi.bai@gmail.com](mailto:tank.wenzhi.bai@gmail.com)  
 
 <br />
 
