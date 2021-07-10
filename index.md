@@ -1,6 +1,6 @@
 ## Bio
 ----------
-<p><font size=3>I am a SLAM algorithm engineer in Shenzhen, China, who already has 3 years of work experience at LDROBOT and BAIDU in succession, from 2017, in the Autonomous Mobile Robots field, especially in SLAM research. Prior to this, I received my B.Eng. in Mechanical Design, Manufacturing and Automation and M.Eng. in Mechatronics Engineering in 2014 and 2017, respectively, all from the Huazhong University of Science and Technology (HUST).</font></p>  
+<p><font size=3>I am a SLAM algorithm engineer in Shenzhen, China, who already has 3 years of work experience at LDROBOT and BAIDU in succession, from 2017, in the Autonomous Mobile Robots field, especially in SLAM research. Prior to this, I received my B.Eng. in Mechanical Design, Manufacturing and Automation and M.Eng. in Mechatronics Engineering in 2014 and 2017, respectively, both from the Huazhong University of Science and Technology (HUST) in China.</font></p>  
 
 <p><font size=3>My research interests are in the areas of autonomous mobile robots, which includes autonomous vehicles, unmanned aerial vehicles and service robots, with focus on sensor fusion, localization and mapping, and state estimation in real environments.</font></p>  
 
