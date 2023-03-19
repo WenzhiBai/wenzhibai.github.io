@@ -145,7 +145,7 @@
             </td>
             <td width="70%" height="150" style="vertical-align:top; text-align:left">
                 <p>
-                <strong>H-ANP (Highway – Autonomous Navigation Pilot)</strong><br />
+                <strong>ANP (Autonomous Navigation Pilot)</strong><br />
                 Aug. 2021 - Now<br />
                 Senior Algorithm Engineer, <a href="https://apollo.auto"> BAIDU APOLLO</a><br />
                 <b>HIGHLIGHTS: </b><br />
@@ -164,7 +164,7 @@
             <td width="70%" height="150" style="vertical-align:top; text-align:left">
                 <p>
                 <strong>AVP (Autonomous Valet Parking)</strong><br />
-                Sept. 2019 - Apr. 2020<br />
+                Jun. 2019 - Apr. 2020<br />
                 Senior Algorithm Engineer, <a href="https://apollo.auto"> BAIDU APOLLO</a><br />
                 <b>HIGHLIGHTS: </b><br />
                 ● Realized the vehicle dynamic relocalization and parameters initialization through getting the optimal solution by RANSAC and Bundle Adjustment<br />
@@ -183,7 +183,7 @@
             <td width="70%" height="150" style="vertical-align:top; text-align:left">
                 <p>
                 <strong>APA (Automatic Parking Assist)</strong><br /> 
-                Nov. 2018 - Sept. 2019<br />
+                Nov. 2018 - Jun. 2019<br />
                 Senior Algorithm Engineer, <a href="https://apollo.auto"> BAIDU APOLLO</a><br />
                 <b>HIGHLIGHTS: </b><br />
                 ● Constructed the Bayesian Probabilistic Occupancy Grid Map by Ultrasonic Radars<br />
