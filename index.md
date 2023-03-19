@@ -139,8 +139,8 @@
     <table border="0" rules="none">
         <tr>
             <td width="30%" style="vertical-align:top; text-align:left">
-            <a href="./assets/img/ANP.png">
-            <img src="./assets/img/ANP.png">
+            <a href="./assets/img/ANP.jpg">
+            <img src="./assets/img/ANP.jpg">
             </a>
             </td>
             <td width="70%" height="150" style="vertical-align:top; text-align:left">
