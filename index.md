@@ -6,7 +6,7 @@
 
 <p><font size=3>In this page, you may know more about me.</font></p>
 
-<b>CV:</b> [CV](./assets/pdf/Bai Wenzhi_CV.pdf)  
+<b>CV:</b> [CV](./assets/pdf/CV.pdf)  
 <b>Link:</b> [GitHub](https://github.com/wenzhibai)  
 <b>Email:</b> [tank.wenzhi.bai@gmail.com](mailto:tank.wenzhi.bai@gmail.com)  
 
