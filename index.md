@@ -1,12 +1,12 @@
 ## Bio
 ----------
-<p><font size=3>I am a SLAM algorithm engineer in Shenzhen, China, who already has 4 years of work experience at LDROBOT and BAIDU in succession, from 2017, in the Autonomous Mobile Robots field, especially in SLAM research. Prior to this, I received my B.Eng. in Mechanical Design, Manufacturing and Automation and M.Eng. in Mechatronics Engineering in 2014 and 2017, respectively, both from the Huazhong University of Science and Technology (HUST) in China.</font></p>  
+<p><font size=3>I am a SLAM algorithm engineer in Shenzhen, China, who already has several years of work experience at LDROBOT and BAIDU in succession, from 2017, in the Autonomous Mobile Robots field, especially in SLAM research. Prior to this, I received my B.Eng. in Mechanical Design, Manufacturing and Automation and M.Eng. in Mechatronics Engineering in 2014 and 2017, respectively, both from the Huazhong University of Science and Technology (HUST) in China.</font></p>  
 
-<p><font size=3>My research interests are in the areas of autonomous mobile robots, which includes autonomous vehicles, unmanned aerial vehicles and service robots, with focus on sensor fusion, localization and mapping, and state estimation in real environments.</font></p>  
+<p><font size=3>My research interests are in the areas of autonomous mobile robots, which includes autonomous vehicles, service robots and surgical robots with focus on sensor fusion, localization and mapping, state estimation and path planning in real environments.</font></p>  
 
 <p><font size=3>In this page, you may know more about me.</font></p>
 
-<b>CV:</b> [CV](./assets/pdf/CV.pdf)  
+<b>CV:</b> [CV](./assets/pdf/Bai Wenzhi_CV.pdf)  
 <b>Link:</b> [GitHub](https://github.com/wenzhibai)  
 <b>Email:</b> [tank.wenzhi.bai@gmail.com](mailto:tank.wenzhi.bai@gmail.com)  
 
@@ -16,7 +16,7 @@
 ----------
 <b>Programming Languages:</b> C/C++ (very strong), Python (fair), Shell (fair)  
 <b>Algorithm Libraries:</b> OpenCV, Eigen, Ceres Solver, OpenGL, PCL  
-<b>Tools:</b> Linux/Ubuntu, ROS, Git, CMake  
+<b>Tools:</b> Linux/Ubuntu, ROS, Git, CMake, Embedded System  
 
 <br />
 
@@ -67,7 +67,7 @@
     <table border="0"  rules="none">
         <tr>
             <td style="vertical-align:top; text-align:left">
-            <b>The First Place</b> of Central China Division and <b>the National Second Place</b> in the RoboMaster of 14th National Undergraduate Robot Competition
+            <b>The First Place</b> of the Central China Division and <b>the National Second Place</b> in the RoboMaster of the 14th National Undergraduate Robot Competition
             </td>
             <td width="70" style="vertical-align:top; text-align:right">Aug. 2015</td>
         </tr>
@@ -107,24 +107,24 @@
             <td width="70%" height="150" style="vertical-align:top; text-align:left">
                 <p>
                 <strong>Correction Algorithm of LIDAR Data for Mobile Robots</strong><br /> 
-                <b>Wenzhi Bai</b>, Gen Li and Liya Han<br />
-                <i>International Conference on Intelligent Robotics and Applications 2017 (ICIRA 2017)</i><br />
+                <b>Wenzhi BAI</b>, Gen LI and Liya HAN<br />
+                <i>International Conference on Intelligent Robotics and Applications (ICIRA), 2017</i><br />
                 <a href="./assets/pdf/ICIRA2017.pdf"> [pdf]</a>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="30%" style="vertical-align:top; text-align:left">
-            <a href="./assets/img/MA_Thesis.jpg">
-            <img src="./assets/img/MA_Thesis.jpg">
+            <a href="./assets/img/ME_Thesis.jpg">
+            <img src="./assets/img/ME_Thesis.jpg">
             </a>
             </td>
             <td width="70%" height="150" style="vertical-align:top; text-align:left">
                 <p>
                 <strong>Study on Lidar-based Map-building for Service Robots</strong><br /> 
-                <b>Wenzhi Bai</b><br />
-                <i>Huazhong University of Science and Technology. MA thesis. 2017</i><br />
-                <a href="./assets/pdf/MA_Thesis.pdf"> [pdf]</a>
+                <b>Wenzhi BAI</b><br />
+                <i>Huazhong University of Science and Technology, ME thesis, 2017</i><br />
+                <a href="./assets/pdf/ME_Thesis.pdf"> [pdf]</a>
                 </p>
             </td>
         </tr>
@@ -139,6 +139,24 @@
     <table border="0" rules="none">
         <tr>
             <td width="30%" style="vertical-align:top; text-align:left">
+            <a href="./assets/img/ANP.png">
+            <img src="./assets/img/ANP.png">
+            </a>
+            </td>
+            <td width="70%" height="150" style="vertical-align:top; text-align:left">
+                <p>
+                <strong>H-ANP (Highway – Autonomous Navigation Pilot)</strong><br />
+                Aug. 2021 - Now<br />
+                Senior Algorithm Engineer, <a href="https://apollo.auto"> BAIDU APOLLO</a><br />
+                <b>HIGHLIGHTS: </b><br />
+                ● Constructed the decision frame of navigation lane change and efficiency lane change by using FSM<br />
+                ● Constructed quadratic programming problem to optimize lateral trajectory and longitudinal trajectory and solved with the Gaussian pseudo-spectral method<br />
+                ● Estimated 2D/3D states of obstacles by Kalman Filter. For data association, the Mahalanobis distance is used for single-sensor data association, and the KM algorithm is used for multi-sensor data association
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="30%" style="vertical-align:top; text-align:left">
             <a href="./assets/img/AVP.jpg">
             <img src="./assets/img/AVP.jpg">
             </a>
@@ -149,9 +167,9 @@
                 Sept. 2019 - Apr. 2020<br />
                 Senior Algorithm Engineer, <a href="https://apollo.auto"> BAIDU APOLLO</a><br />
                 <b>HIGHLIGHTS: </b><br />
-                ● Realized the vehicle dynamic relocalization and initialization through getting the optimal solution by RANSAC plus Global Bundle Adjustment<br />
+                ● Realized the vehicle dynamic relocalization and parameters initialization through getting the optimal solution by RANSAC and Bundle Adjustment<br />
+                ● Built basic modules such as data buffer manager, transformation manager, OpenGL visual debugging tool, etc., which provided the solid foundation for the whole SFM system<br />
                 ● Constructed a set of automatic testing and recording module<br />
-                ● Built a sensor data repository based on Ring Buffer<br />
                 ● Realized the online automatic calibration module of camera external parameters
                 </p>
             </td>
@@ -168,8 +186,8 @@
                 Nov. 2018 - Sept. 2019<br />
                 Senior Algorithm Engineer, <a href="https://apollo.auto"> BAIDU APOLLO</a><br />
                 <b>HIGHLIGHTS: </b><br />
-                ● Constructed the Occupancy Grid Map by Ultrasonic Radars<br />
-                ● Applied the Kalman Filter to estimate parking spaces
+                ● Constructed the Bayesian Probabilistic Occupancy Grid Map by Ultrasonic Radars<br />
+                ● Applied the Kalman Filter and Hough Transform to estimate parking spaces
                 </p>
             </td>
         </tr>
@@ -205,7 +223,6 @@
                 Lidar-based SLAM Algorithm Design<br />
                 <b>HIGHLIGHTS: </b><br />
                 ● Developed the Lidar-based SLAM module by transfering <a href="https://github.com/cartographer-project/cartographer"> Cartographer</a><br />
-                ● ICIRA2017, EI paper: <i>Correction Algorithm of LIDAR Data for Mobile Robots</i><a href="./assets/pdf/ICIRA2017.pdf"> [pdf]</a>
                 </p>
             </td>
         </tr>
@@ -238,7 +255,7 @@
                 Sept. 2014 - Oct. 2015<br />
                 Founder & Leader<br />
                 <b>HIGHLIGHTS: </b><br />
-                ● Set up a club of more than 40 people on campus, and obtained various support funds about 400,000 RMB<br />
+                ● Set up a club of more than 40 students on campus, and obtained various support fundings of 400,000 RMB<br />
                 ● Served as the chief architect of the technical direction of the team<br />
                 ● Won the First Place of Central China Division and the National Second Place in the <a href="https://www.robomaster.com/en-US"> RoboMaster</a> of 14th National Undergraduate Robot Competition
                 </p>
