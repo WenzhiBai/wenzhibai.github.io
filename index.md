@@ -67,6 +67,12 @@
     <table border="0"  rules="none">
         <tr>
             <td style="vertical-align:top; text-align:left">
+            <b>Best Presentation</b> of the IEEE RAS Winter School on SLAM in Deformable Environments
+            </td>
+            <td width="70" style="vertical-align:top; text-align:right">Jul. 2021</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:top; text-align:left">
             <b>The First Place</b> of the Central China Division and <b>the National Second Place</b> in the RoboMaster of the 14th National Undergraduate Robot Competition
             </td>
             <td width="70" style="vertical-align:top; text-align:right">Aug. 2015</td>
