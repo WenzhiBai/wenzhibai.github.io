@@ -1,8 +1,8 @@
 ## Bio
 ----------
-<p><font size=3>I am a senior algorithm engineer in Shenzhen, China, who already has several years of work experience at LDROBOT and BAIDU in succession, from 2017, in the Autonomous Mobile Robots field, especially in SLAM research. Prior to this, I received my B.Eng. in Mechanical Design, Manufacturing and Automation and M.Eng. in Mechatronics Engineering in 2014 and 2017, respectively, both from the Huazhong University of Science and Technology (HUST) in China.</font></p>  
+<p><font size=3>I am a PhD student at the University of Manchester, supervised by Dr. Zhenhong Li, Prof. Andrew Weightman, and Prof. Zhengtao Ding. Prior to starting my PhD journey, I gained several years of work experience in the field of autonomous mobile robots, particularly in SLAM research, at LDROBOT and BAIDU in succession, from 2017. I received my B.Eng. in Mechanical Design, Manufacturing and Automation and M.Eng. in Mechatronics Engineering in 2014 and 2017, respectively, both from the Huazhong University of Science and Technology (HUST) in China.</font></p>  
 
-<p><font size=3>My research interests are in the areas of autonomous mobile robots, which includes autonomous vehicles, service robots and surgical robots with focus on sensor fusion, localization and mapping, state estimation and path planning in real environments.</font></p>  
+<p><font size=3>My research interests include autonomous mobile robots and surgical robots, with a focus on sensor fusion, localization and mapping, state estimation, and path planning in real-world environments.</font></p>  
 
 <p><font size=3>In this page, you may know more about me.</font></p>
 
