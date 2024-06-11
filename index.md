@@ -69,11 +69,11 @@
             <td style="vertical-align:top; text-align:left">
             <b>Best Conference Paper</b> in the 29th International Conference on Mechatronics and Machine Vision in Practice (M2VIP)
             </td>
-            <td width="70" style="vertical-align:top; text-align:right">Jul. 2021</td>
+            <td width="70" style="vertical-align:top; text-align:right">Nov. 2023</td>
         </tr>
         <tr>
             <td style="vertical-align:top; text-align:left">
-            <b>Best Presentation</b> of the IEEE RAS Winter School on SLAM in Deformable Environments
+            <b>Best Presentation</b> in the IEEE RAS Winter School on SLAM in Deformable Environments
             </td>
             <td width="70" style="vertical-align:top; text-align:right">Jul. 2021</td>
         </tr>
