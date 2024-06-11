@@ -67,6 +67,12 @@
     <table border="0"  rules="none">
         <tr>
             <td style="vertical-align:top; text-align:left">
+            <b>Best Conference Paper</b> in the 29th International Conference on Mechatronics and Machine Vision in Practice (M2VIP)
+            </td>
+            <td width="70" style="vertical-align:top; text-align:right">Jul. 2021</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:top; text-align:left">
             <b>Best Presentation</b> of the IEEE RAS Winter School on SLAM in Deformable Environments
             </td>
             <td width="70" style="vertical-align:top; text-align:right">Jul. 2021</td>
@@ -104,6 +110,21 @@
 ----------
 <html>
     <table border="0" rules="none">
+        <tr>
+            <td width="30%" style="vertical-align:top; text-align:left">
+            <a href="./assets/img/M2VIP2023.jpg">
+            <img src="./assets/img/M2VIP2023.jpg">
+            </a>
+            </td>
+            <td width="70%" height="150" style="vertical-align:top; text-align:left">
+                <p>
+                <strong>IMTP: Intention-Matching Trajectory Prediction for Autonomous Vehicles</strong><br /> 
+                <b>Wenzhi BAI</b>, Luwen Yu, Andrew Weightman, Zhengtao Ding, Zhiqiang Zhang, Shengquan Xie, Zhenhong Li<br />
+                <i>the 29th International Conference on Mechatronics and Machine Vision in Practice (M2VIP), 2023</i><br />
+                <a href="./assets/pdf/M2VIP2023.pdf"> [pdf]</a>
+                </p>
+            </td>
+        </tr>
         <tr>
             <td width="30%" style="vertical-align:top; text-align:left">
             <a href="./assets/img/ICIRA2017.jpg">
