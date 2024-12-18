@@ -33,5 +33,5 @@ docker run -p 4000:4000 --rm -v $(pwd):/usr/src/app jekyll-site
 
 ## Deployment
 1. Commit any modifications and push to the origin.
-2. Check status by going to the repository settings, in the "GitHub Pages" section.
-3. Review your website at https://[your_GitHub_username].github.io/
+1. Check status by going to the repository settings, in the "GitHub Pages" section.
+1. Review at https://wenzhibai.github.io/
