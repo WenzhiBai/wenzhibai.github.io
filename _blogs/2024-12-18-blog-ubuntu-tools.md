@@ -6,6 +6,8 @@ tags:
   - development
 ---
 
+This blog collects some useful Ubuntu tools for me.
+
 ### 工具一：输入法
 #### 谷歌拼音输入法
 1. 在Ubuntu Software Center中搜索googlepinyin安装  
