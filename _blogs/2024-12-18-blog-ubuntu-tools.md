@@ -6,7 +6,7 @@ tags:
   - development
 ---
 
-This blog collects some useful Ubuntu tools for me.
+This blog collects some useful Ubuntu tools for me.  
 
 ### 工具一：输入法
 #### 谷歌拼音输入法
@@ -163,4 +163,4 @@ sudo apt-get update
 sudo apt-get install typora
 ```
 * 官网下载地址：https://typoraio.cn/#linux
-***
+
