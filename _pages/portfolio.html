@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "Joey's Portfolio"
+permalink: /portfolio/
+author_profile: true
+---
+
+<hr>
+
+{% include base_path %}
+
+
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
+
