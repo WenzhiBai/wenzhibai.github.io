@@ -3,6 +3,10 @@ layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
+redirect_from:
+  - /project
+  - /projects
+  - /projects.html
 ---
 
 <hr>
@@ -13,6 +17,6 @@ author_profile: true
 
 {% endif %}
 
-{% for project in site.projects reversed %}
+{% for post in site.projects reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
