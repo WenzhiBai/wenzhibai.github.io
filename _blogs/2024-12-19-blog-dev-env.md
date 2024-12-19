@@ -94,11 +94,10 @@ sudo apt-get install meld -y
 git config --global diff.tool meld
 git config --global difftool.prompt false
 ```
-To use `meld` as a git difftool, you can run the following command to compare changes:
-```
-git difftool
-```
-You can also use `meld` to compare specific commits or branches:
+To use `meld` as a git difftool, you can run `meld` in everywhere and `git difftool` in your repository to compare changes.  
+
+You can also use `meld` to compare specific commits or branches in your repository:  
 ```
 git difftool <commit1> <commit2>
 git difftool <branch1> <branch2>
+```

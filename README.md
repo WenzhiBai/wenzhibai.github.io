@@ -2,7 +2,7 @@
 This is Wenzhi Bai's academic website, powered by Jekyll & AcademicPages, a fork of Minimal Mistakes. My repository is forked from the [Academic Pages template](https://github.com/academicpages/academicpages.github.io). Academic Pages is a GitHub Pages template for academic websites and is under the MIT license. My information is copyrighted by myself with all rights reserved to the extent of applicable law.
 
 # Maintenance
-## Bugfixes and enhancements
+## Bugfixes and Enhancements
 See more info at https://academicpages.github.io/
 
 ## Modifying Content
@@ -15,12 +15,12 @@ See more info at https://academicpages.github.io/
 ## Running Locally
 1. Start Docker.
 
-1. Build the container:
+2. Build the container:
 ```bash
 docker build -t jekyll-site .
 ```
 
-1. Run the container:
+3. Run the container:
 ```bash
 docker run -p 4000:4000 --rm -v $(pwd):/usr/src/app jekyll-site
 # -p 4000:4000: Maps port 4000 on your host to port 4000 in the container.
@@ -28,7 +28,7 @@ docker run -p 4000:4000 --rm -v $(pwd):/usr/src/app jekyll-site
 # -v $(pwd):/usr/src/app: Mounts the current directory to /usr/src/app in the container.
 ```
 
-1. Use the following address to preview:
+4. Use the following address to preview:
 [http://localhost:4000/](http://localhost:4000/) or [http://0.0.0.0:4000/](http://0.0.0.0:4000/)
 
 ## Deployment
