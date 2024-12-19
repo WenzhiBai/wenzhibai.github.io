@@ -21,25 +21,21 @@ This blog collects some useful Ubuntu tools for me.
 ### 工具二：有道词典
 官网下载地址：http://cidian.youdao.com/index-linux.html  
 有道词典多平台下载地址：http://cidian.youdao.com/multi.html  
-***
 
 ### 工具三：Kazam（录屏、截屏）
 在Ubuntu Software Center中搜索Kazam安装即可。
-***
 
 ### 工具五：XMind
 官网下载地址：http://www.xmind.net/download/linux/  
 如果是压缩包则下载完毕后解压，进行安装  
 `sudo sh setup.sh`  
 如果是deb安装包，直接双击安装即可。
-***
 
 ### 工具六：google chrome（浏览器）
 官网下载地址：https://www.google.com/intl/en/chrome/browser/desktop/  
 或者使用终端：  
 `wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`  
 可下载得到deb安装包，点击安装即可。
-***
 
 ### 工具七：VS Code
 官网下载地址：https://code.visualstudio.com/download
@@ -50,17 +46,14 @@ ${workspaceFolder}/**
 /usr/include/**
 /usr/local/include/**
 ```
-***
 
 ### 工具八：Terminator
 `sudo apt-get install terminator`
-***
 
 ### 工具九：Zsh
 `sudo apt-get install zsh`  
 修改zsh为默认:
 `chsh -s /bin/zsh`
-***
 
 ### 工具十：Oh my zsh  
 * 自动安装：  
@@ -76,7 +69,6 @@ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```
 ZSH_THEME="ys"
 ```
-***
 
 ### 工具十一：zsh-syntax-highlighting  
 **克隆项目**  
@@ -91,7 +83,6 @@ plugins=(其他的插件 zsh-syntax-highlighting)
 ```
 source ~/.zshrc
 ```
-***
 
 ### 工具十二：zsh-autosuggestions  
 **克隆项目**
@@ -106,7 +97,6 @@ plugins=(其他的插件 zsh-autosuggestions)
 ```
 source ~/.zshrc
 ```
-***
 
 ### 工具十三：常用包管理命令
 ```
@@ -132,7 +122,6 @@ apt-get clean
 # 如果是彻底卸载软件，推荐使用apt-get –purge remove,不推荐使用autoremove，因为你删除该依赖软件包，也可能被其他软件包所依赖，从而导致其他软件不可用。
 # 如果是清理硬盘，推荐使用apt-get autoclean，deb安装后基本上就没多大用了，完全可以删除掉。
 ```
-***
 
 ### 工具十四：WPS
 * *(optional)* 清除自带LibreOffice
@@ -141,7 +130,6 @@ sudo apt-get remove --purge libreoffice*
 ```
 * 安装WPS
 官网下载地址：https://www.wps.cn/product/wpslinux
-***
 
 ### 工具十五：git difftool
 * **meld**
@@ -149,7 +137,6 @@ sudo apt-get remove --purge libreoffice*
 sudo apt-get install meld
 git config --global diff.tool meld
 ```
-***
 
 ### 工具十六：Typora
 ```
