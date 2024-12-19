@@ -101,3 +101,7 @@ You can also use `meld` to compare specific commits or branches in your reposito
 git difftool <commit1> <commit2>
 git difftool <branch1> <branch2>
 ```
+
+## 6. ROS: Noetic
+ROS Noetic Ninjemys is a distribution of ROS 1, available for Ubuntu Focal Fossa (20.04).  
+[Installation Instructions](https://wiki.ros.org/noetic/Installation/Ubuntu)
