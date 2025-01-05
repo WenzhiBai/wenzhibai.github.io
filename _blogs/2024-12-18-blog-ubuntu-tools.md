@@ -8,15 +8,14 @@ tags:
 
 This blog collects some useful Ubuntu tools for me.  
 
-## 1. 输入法
-### 1.1. 谷歌拼音输入法
+## 1. 输入法-谷歌拼音输入法
 1. 在Ubuntu Software Center中搜索googlepinyin安装  
 或者  
 `sudo apt install fcitx-googlepinyin -y`  
-2. 安装完成后进入右上角->System Settings->Language Support进行更新，更新完成后将keyboard input method system设置为fcitx。  
-3. 注销后重新登录。  
-4. 右上角->System Settings -> Keyboard，左下角Text Entry，点“+”，搜索google，添加google输入法。  
-5. 使用鼠标控制右上角的键盘或者Ctrl + Space触发google输入法。  
+1. 安装完成后进入右上角->System Settings->Language Support进行更新，更新完成后将keyboard input method system设置为fcitx。  
+2. 注销后重新登录。  
+3. “右上角->System Settings->Keyboard，左下角Text Entry”或者“在系统中查找fcitx configuration”，进入配置后点“+”，搜索google（若查找不到注意取消“仅查找当前语言”选项），添加google输入法。  
+4. 使用鼠标控制右上角的键盘或者Ctrl + Space触发google输入法。  
 
 ## 2. 有道词典
 官网下载地址：http://cidian.youdao.com/index-linux.html  
@@ -38,8 +37,9 @@ This blog collects some useful Ubuntu tools for me.
 可下载得到deb安装包，点击安装即可。
 
 ## 6. VS Code
-官网下载地址：https://code.visualstudio.com/download
-### 6.1. 智能提示及补全
+### 6.1. 官网下载
+地址：https://code.visualstudio.com/download
+### 6.2. 智能提示及补全
 控制台（按F1）搜索C/C++:Edit Configurations，进入IntelliSense Configurations对Include path进行配置，从而实现对std、OpenCV等的智能提示及补全。
 ```
 ${workspaceFolder}/**
@@ -56,104 +56,102 @@ ${workspaceFolder}/**
 `chsh -s /bin/zsh`
 
 ## 9. Oh my zsh  
-* 自动安装：  
+### 9.1. 自动安装  
 ```
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
 ```  
-* 手动安装：
+### 9.2. 手动安装
 ```
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```
-* 偏好参数
+### 9.3. 偏好参数
 ```
 ZSH_THEME="ys"
 ```
 
 ## 10. zsh-syntax-highlighting  
-**克隆项目**  
+### 10.1. 克隆项目  
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
-**配置**  
+### 10.2. 配置  
 ```
 plugins=(其他的插件 zsh-syntax-highlighting)
 ```
-**生效**  
+### 10.3. 生效  
 ```
 source ~/.zshrc
 ```
 
 ## 11. zsh-autosuggestions  
-**克隆项目**
+### 11.1. 克隆项目
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
-**配置**
+### 11.2. 配置
 ```
 plugins=(其他的插件 zsh-autosuggestions)
 ```
-**生效**
+### 11.3. 生效
 ```
 source ~/.zshrc
 ```
 
 ## 12. 常用包管理命令
-```
-# 提供C/C++的编译环境
+### 12.1. 提供C/C++的编译环境
 ```
 sudo apt install build-essential
 ```
 
-# 删除已安装包，不保留配置文件
+### 12.2. 删除已安装包，不保留配置文件
 ```
 apt –purge remove
 ```
 
-# 删除为了满足依赖而安装的，但现在不再需要的软件包（包括已安装包）
+### 12.3. 删除为了满足依赖而安装的，但现在不再需要的软件包（包括已安装包）
 ```
 apt autoremove
 ```
 
-# 删除已安装的软件包，保留配置文件
+### 12.4. 删除已安装的软件包，保留配置文件
 ```
 apt remove
 ```
 
-# 只会删除 /var/cache/apt/archives/ 已经过期的deb
-# APT的底层包是dpkg, 而dpkg安装Package时, 会将 *.deb 放在 /var/cache/apt/archives/中
+### 12.5. 只会删除 /var/cache/apt/archives/ 已经过期的deb
+apt的底层包是dpkg, 而dpkg安装package时, 会将 *.deb 放在 /var/cache/apt/archives/中**
 ```
-apt autoclean .
+apt autoclean
 ```
 
-#将 /var/cache/apt/archives/ 的 所有 deb 删掉
+### 12.6. 将 /var/cache/apt/archives/ 的 所有 deb 删掉
 ```
 apt clean
 ```
 
-# 如果是彻底卸载软件，推荐使用`apt –purge remove`,不推荐使用`autoremove`，因为你删除该依赖软件包，也可能被其他软件包所依赖，从而导致其他软件不可用。
-# 如果是清理硬盘，推荐使用`apt autoclean`，deb安装后基本上就没多大用了，完全可以删除掉。
-```
+如果是彻底卸载软件，推荐使用`apt –purge remove`,不推荐使用`autoremove`，因为你删除该依赖软件包，也可能被其他软件包所依赖，从而导致其他软件不可用。
+如果是清理硬盘，推荐使用`apt autoclean`，deb安装后基本上就没多大用了，完全可以删除掉。
 
 ## 13. WPS
-* *(optional)* 清除自带LibreOffice
+### 13.1. *(optional)* 清除自带LibreOffice
 ```
 sudo apt remove --purge libreoffice*
 ```
-* 安装WPS
+### 13.2. 安装WPS
 官网下载地址：https://www.wps.cn/product/wpslinux
 
-## 14. git difftool·
-* **meld**
+## 14. git difftool-meld
 ```
 sudo apt install meld
 git config --global diff.tool meld
 ```
 
 ## 15. Typora
+### 15.1. wget
 ```
-# or run:
-# sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE
+# download
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE
 wget -qO - https://typoraio.cn/linux/public-key.asc | sudo apt-key add -
 # add Typora's repository
 sudo add-apt-repository 'deb https://typoraio.cn/linux ./'
@@ -161,4 +159,4 @@ sudo apt update
 # install typora
 sudo apt install typora
 ```
-* 官网下载地址：https://typoraio.cn/#linux
+### 15.2. 官网下载地址：https://typoraio.cn/#linux
