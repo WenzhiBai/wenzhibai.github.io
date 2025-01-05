@@ -10,25 +10,30 @@ This blog details the steps to configure and install my usual development enviro
 
 ## 1. System Update
 ```
-sudo apt-get update
-sudo apt-get upgrade -y
+sudo apt update
+sudo apt upgrade -y
 ```  
 
 ## 2. Build Essential
 ```
-sudo apt-get install build-essential -y
-sudo apt-get install git -y
+sudo apt install build-essential -y
+sudo apt install git -y
 ```
 
 ## 3. Terminal Tools
 ### 3.1. Terminator
-`sudo apt-get install terminator -y`
+```
+sudo apt install terminator -y
+```
 
 ### 3.2. Zsh
-`sudo apt-get install zsh -y`  
+```
+sudo apt install zsh -y  
+```
 Set zsh as default:
-`chsh -s /bin/zsh`  
-Log out and log back in for the default shell change to take effect.
+```
+chsh -s /bin/zsh  
+```
 
 ### 3.3. Oh my zsh  
 * Auto installation:  
@@ -90,7 +95,7 @@ ${workspaceFolder}/**
 
 ## 5. git difftool: meld
 ```
-sudo apt-get install meld -y
+sudo apt install meld -y
 git config --global diff.tool meld
 git config --global difftool.prompt false
 ```

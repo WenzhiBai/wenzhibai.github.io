@@ -12,7 +12,7 @@ This blog collects some useful Ubuntu tools for me.
 ### 1.1. 谷歌拼音输入法
 1. 在Ubuntu Software Center中搜索googlepinyin安装  
 或者  
-`sudo apt-get install fcitx-googlepinyin -y`  
+`sudo apt install fcitx-googlepinyin -y`  
 2. 安装完成后进入右上角->System Settings->Language Support进行更新，更新完成后将keyboard input method system设置为fcitx。  
 3. 注销后重新登录。  
 4. 右上角->System Settings -> Keyboard，左下角Text Entry，点“+”，搜索google，添加google输入法。  
@@ -48,10 +48,10 @@ ${workspaceFolder}/**
 ```
 
 ## 7. Terminator
-`sudo apt-get install terminator`
+`sudo apt install terminator`
 
 ## 8. Zsh
-`sudo apt-get install zsh`  
+`sudo apt install zsh`  
 修改zsh为默认:
 `chsh -s /bin/zsh`
 
@@ -101,32 +101,44 @@ source ~/.zshrc
 ## 12. 常用包管理命令
 ```
 # 提供C/C++的编译环境
-sudo apt-get install build-essential
+```
+sudo apt install build-essential
+```
 
 # 删除已安装包，不保留配置文件
-apt-get –purge remove
+```
+apt –purge remove
+```
 
 # 删除为了满足依赖而安装的，但现在不再需要的软件包（包括已安装包）
-apt-get autoremove
+```
+apt autoremove
+```
 
 # 删除已安装的软件包，保留配置文件
-apt-get remove
+```
+apt remove
+```
 
 # 只会删除 /var/cache/apt/archives/ 已经过期的deb
 # APT的底层包是dpkg, 而dpkg安装Package时, 会将 *.deb 放在 /var/cache/apt/archives/中
-apt-get autoclean .
+```
+apt autoclean .
+```
 
 #将 /var/cache/apt/archives/ 的 所有 deb 删掉
-apt-get clean
+```
+apt clean
+```
 
-# 如果是彻底卸载软件，推荐使用apt-get –purge remove,不推荐使用autoremove，因为你删除该依赖软件包，也可能被其他软件包所依赖，从而导致其他软件不可用。
-# 如果是清理硬盘，推荐使用apt-get autoclean，deb安装后基本上就没多大用了，完全可以删除掉。
+# 如果是彻底卸载软件，推荐使用`apt –purge remove`,不推荐使用`autoremove`，因为你删除该依赖软件包，也可能被其他软件包所依赖，从而导致其他软件不可用。
+# 如果是清理硬盘，推荐使用`apt autoclean`，deb安装后基本上就没多大用了，完全可以删除掉。
 ```
 
 ## 13. WPS
 * *(optional)* 清除自带LibreOffice
 ```
-sudo apt-get remove --purge libreoffice*
+sudo apt remove --purge libreoffice*
 ```
 * 安装WPS
 官网下载地址：https://www.wps.cn/product/wpslinux
@@ -134,7 +146,7 @@ sudo apt-get remove --purge libreoffice*
 ## 14. git difftool·
 * **meld**
 ```
-sudo apt-get install meld
+sudo apt install meld
 git config --global diff.tool meld
 ```
 
@@ -145,8 +157,8 @@ git config --global diff.tool meld
 wget -qO - https://typoraio.cn/linux/public-key.asc | sudo apt-key add -
 # add Typora's repository
 sudo add-apt-repository 'deb https://typoraio.cn/linux ./'
-sudo apt-get update
+sudo apt update
 # install typora
-sudo apt-get install typora
+sudo apt install typora
 ```
 * 官网下载地址：https://typoraio.cn/#linux
