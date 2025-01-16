@@ -182,7 +182,7 @@ Awards
             2015-08
             </td>
             <td style="vertical-align:center; text-align:left">
-            <b>The First Place</b> of the Central China Division and <b>the National Second Place</b> in the RoboMaster of the 14th National Undergraduate Robot Competition
+            <b>The First Place</b> in the Central China Division and <b>the National Second Place</b> in the RoboMaster of the 14th National Undergraduate Robot Competition
             </td>
             <td style="vertical-align:center; text-align:center">
             <img src="/images/Flag_China.png" width="40">
@@ -215,7 +215,7 @@ Awards
             2012-05
             </td>
             <td style="vertical-align:center; text-align:left">
-            <b>The First Place</b> in the 5th National Undergraduate Mechanical Innovation Design Competition, Hubei Sectional Preliminaries
+            <b>The First Place</b> in the 5th National Undergraduate Mechanical Innovation Design Competition, Hubei Division
             </td>
             <td style="vertical-align:center; text-align:center">
             <img src="/images/Flag_China.png" width="40">
