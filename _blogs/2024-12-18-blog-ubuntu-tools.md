@@ -45,6 +45,7 @@ This blog collects some useful Ubuntu tools for me.
 ${workspaceFolder}/**
 /usr/include/**
 /usr/local/include/**
+/opt/ros/noetic/include/**
 ```
 
 ## 7. Clang-format for VS Code
