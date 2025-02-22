@@ -91,6 +91,7 @@ In the console (press F1), search for C/C++: Edit Configurations, and configure 
 ${workspaceFolder}/**
 /usr/include/**
 /usr/local/include/**
+/opt/ros/noetic/include/**
 ```
 
 ## 5. git difftool: meld
