@@ -14,6 +14,7 @@ My research interests include autonomous mobile robots and surgical robots, with
 
 News
 ======
+* Our paper, submitted for IROS 2025, is now available <a href="https://github.com/Happy-ZZX/PL-VIWO" target="_blank">online</a>.
 * Our paper was awarded the **Best Conference Paper** at M2VIP 2023!
 
 Availability

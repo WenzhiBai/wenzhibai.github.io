@@ -21,6 +21,7 @@ Personal Development
 Life and Living
 ======
 * Love all, trust a few, do wrong to none.
+* When you feel like quitting, think about why you started.
 
 Business and Finance
 ======
