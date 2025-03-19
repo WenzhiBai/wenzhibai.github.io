@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 ------
-Reviewer  
+
+Reviewer
 ======
 * 2025, The IEEE International Conference on Intelligent Robots and Systems (IROS)
